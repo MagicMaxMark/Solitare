@@ -7,6 +7,9 @@ public class DrawPileScript : MonoBehaviour
     public bool ClickedOn = false;
     public int[] Cards;
     public GameObject DiscardPile;
+    public GameObject Card;
+    public int RandomNumber;
+    public string CardName = "";
     int i = 0;
     // Start is called before the first frame update
     void Start()
@@ -23,7 +26,15 @@ public class DrawPileScript : MonoBehaviour
     void Update()
     {
         if (ClickedOn == true)
-        {
+
+            RandomNumber = Random.Range(0, Cards.Length);
+            CardName = "playingCard_" + Cards[RandomNumber];
+            Card = GameObject.Find(CardName);
+
+            Instantiate(Card,new Vector3(DiscardPile.transform.position.x, DiscardPile.transform.position.y, DiscardPile.transform.position.z), Quaternion.identity);
+
+            
+            
             
         }
         
