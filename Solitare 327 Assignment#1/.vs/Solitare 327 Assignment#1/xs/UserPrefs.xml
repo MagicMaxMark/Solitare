@@ -1,7 +1,11 @@
 ﻿<Properties StartupConfiguration="{FF5D5A0A-7210-0326-5531-9C0E57965C57}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/DrawPileScript.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Foundation1.cs">
     <Files>
-      <File FileName="Assets/Scripts/DrawPileScript.cs" Line="33" Column="1" />
+      <File FileName="Assets/Scripts/Clcik.cs" Line="24" Column="14" />
+      <File FileName="Assets/Scripts/Click2.cs" Line="38" Column="6" />
+      <File FileName="Assets/Scripts/DrawPileScript.cs" Line="38" Column="46" />
+      <File FileName="Assets/Scripts/Deck.cs" Line="25" Column="20" />
+      <File FileName="Assets/Scripts/Foundation1.cs" Line="7" Column="24" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -9,7 +13,7 @@
           <Node name="Solitare 327 Assignment#1" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="DrawPileScript.cs" selected="True" />
+                <Node name="Foundation1.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -19,7 +23,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="8807469a-858d-4808-87ce-b6443f63b084" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="20dd8b5f-8313-4223-afc6-acad24a1f3de" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
