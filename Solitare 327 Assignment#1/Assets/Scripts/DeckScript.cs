@@ -11,8 +11,9 @@ public class DeckScript : MonoBehaviour
     public GameObject Foundation2;
     public GameObject Foundation3;
     public GameObject Discard;
+    public GameObject Canvas;
     public bool DeckIsShuffled = false;
-    public bool isClicked = false;
+    public bool GameEnd = false;
     int FoundationCardCounter;
     int FoundationCardMax;
     int RandNum;
@@ -157,6 +158,14 @@ public class DeckScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        FoundationCardCounter = 0;
+        while (ShuffledDeck[FoundationCardCounter] != null)
+        {
+            FoundationCardCounter += 1;
+            Debug.Log("FoundationCardCounter " + FoundationCardCounter);
+        }
+        GameObject.Find("DeckText").GetComponent<TextMesh>().text = "" + FoundationCardCounter;
+
         if (ShuffledDeck[0] == null)
         {
             CardCounter = 0;
@@ -167,6 +176,19 @@ public class DeckScript : MonoBehaviour
                 CardCounter += 1;
             }
             ShuffledDeck[51] = null;
+
+            if (ShuffledDeck[0] == null)
+            {
+                GameEnd = true;
+            }
         }
+
+        while(GameEnd == true)
+        {
+            GameObject.Find("Main Camera").GetComponent<MouseClickScript>().enabled = false;
+            gameObject.GetComponent<DeckScript>().enabled = false;
+
+        }
+
     }
 }
