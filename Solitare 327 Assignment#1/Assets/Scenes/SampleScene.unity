@@ -246,6 +246,20 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 45629144}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &45629147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 45629146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d39f764f00404446a4103043d4a6237, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CardNum: 6
+  Cardsuit: 2
 --- !u!1001 &126311802
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -327,6 +341,20 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 126311802}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &126311805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 126311804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d39f764f00404446a4103043d4a6237, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CardNum: 1
+  Cardsuit: 1
 --- !u!1001 &131963572
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -408,6 +436,20 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 131963572}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &131963575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 131963574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d39f764f00404446a4103043d4a6237, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CardNum: 11
+  Cardsuit: 4
 --- !u!1001 &188028874
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -489,6 +531,20 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 188028874}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &188028877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 188028876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d39f764f00404446a4103043d4a6237, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CardNum: 1
+  Cardsuit: 4
 --- !u!1001 &215439033
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -570,6 +626,20 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 215439033}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &215439036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 215439035}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d39f764f00404446a4103043d4a6237, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CardNum: 13
+  Cardsuit: 2
 --- !u!1001 &240992753
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -645,6 +715,26 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 240992753}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &240992755 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6104896988903310408, guid: 320c3140bf3f84a95a35ac3810270dab,
+    type: 3}
+  m_PrefabInstance: {fileID: 240992753}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &240992756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 240992755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d39f764f00404446a4103043d4a6237, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CardNum: 0
+  Cardsuit: 0
 --- !u!1 &270463129
 GameObject:
   m_ObjectHideFlags: 0
@@ -851,6 +941,20 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 276721354}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &276721357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 276721356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d39f764f00404446a4103043d4a6237, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CardNum: 3
+  Cardsuit: 4
 --- !u!1001 &279279938
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -932,6 +1036,20 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 279279938}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &279279941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 279279940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d39f764f00404446a4103043d4a6237, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CardNum: 5
+  Cardsuit: 2
 --- !u!1001 &292341207
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1013,6 +1131,20 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 292341207}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &292341210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 292341209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d39f764f00404446a4103043d4a6237, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CardNum: 7
+  Cardsuit: 4
 --- !u!1 &294905220
 GameObject:
   m_ObjectHideFlags: 0
@@ -1023,7 +1155,6 @@ GameObject:
   m_Component:
   - component: {fileID: 294905223}
   - component: {fileID: 294905222}
-  - component: {fileID: 294905221}
   - component: {fileID: 294905224}
   m_Layer: 0
   m_Name: Draw Pile
@@ -1032,18 +1163,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &294905221
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 294905220}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ca770f57c22c04c878e386ff5229d3ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &294905222
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1344,6 +1463,20 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 328784690}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &328784693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 328784692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d39f764f00404446a4103043d4a6237, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CardNum: 5
+  Cardsuit: 1
 --- !u!1001 &337293272
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1425,6 +1558,20 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 337293272}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &337293275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 337293274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d39f764f00404446a4103043d4a6237, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CardNum: 3
+  Cardsuit: 1
 --- !u!1001 &407412079
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1506,6 +1653,20 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 407412079}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &407412082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 407412081}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d39f764f00404446a4103043d4a6237, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CardNum: 3
+  Cardsuit: 3
 --- !u!1 &421484925
 GameObject:
   m_ObjectHideFlags: 0
@@ -1712,6 +1873,20 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 422331408}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &422331411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 422331410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d39f764f00404446a4103043d4a6237, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CardNum: 10
+  Cardsuit: 3
 --- !u!1001 &447944055
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1868,6 +2043,20 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 487960474}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &487960477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 487960476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d39f764f00404446a4103043d4a6237, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CardNum: 2
+  Cardsuit: 3
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -2099,6 +2288,20 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 553998395}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &553998398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 553998397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d39f764f00404446a4103043d4a6237, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CardNum: 4
+  Cardsuit: 3
 --- !u!1001 &613332430
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2180,6 +2383,20 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 613332430}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &613332433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 613332432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d39f764f00404446a4103043d4a6237, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CardNum: 6
+  Cardsuit: 4
 --- !u!1001 &618118548
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2261,6 +2478,20 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 618118548}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &618118551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 618118550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d39f764f00404446a4103043d4a6237, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CardNum: 3
+  Cardsuit: 2
 --- !u!1001 &655551447
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2342,6 +2573,20 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 655551447}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &655551450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 655551449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d39f764f00404446a4103043d4a6237, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CardNum: 1
+  Cardsuit: 2
 --- !u!1001 &695013602
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2423,6 +2668,20 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 695013602}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &695013605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 695013604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d39f764f00404446a4103043d4a6237, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CardNum: 10
+  Cardsuit: 1
 --- !u!1001 &759888800
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2504,6 +2763,20 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 759888800}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &759888803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 759888802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d39f764f00404446a4103043d4a6237, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CardNum: 13
+  Cardsuit: 1
 --- !u!1001 &805930134
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2585,6 +2858,20 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 805930134}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &805930137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 805930136}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d39f764f00404446a4103043d4a6237, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CardNum: 9
+  Cardsuit: 4
 --- !u!1001 &811977394
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2652,7 +2939,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -1457232081259378150, guid: 899a148cf986e4f20b4c5c2cd1e50860, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 899a148cf986e4f20b4c5c2cd1e50860, type: 3}
 --- !u!4 &811977395 stripped
 Transform:
@@ -2666,6 +2954,20 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 811977394}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &811977397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 811977396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d39f764f00404446a4103043d4a6237, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CardNum: 12
+  Cardsuit: 1
 --- !u!1001 &840111760
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2747,6 +3049,20 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 840111760}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &840111763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 840111762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d39f764f00404446a4103043d4a6237, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CardNum: 7
+  Cardsuit: 2
 --- !u!1001 &913534512
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2828,6 +3144,20 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 913534512}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &913534515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 913534514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d39f764f00404446a4103043d4a6237, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CardNum: 8
+  Cardsuit: 3
 --- !u!1001 &918895069
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2909,6 +3239,20 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 918895069}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &918895072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 918895071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d39f764f00404446a4103043d4a6237, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CardNum: 13
+  Cardsuit: 3
 --- !u!1 &921469573
 GameObject:
   m_ObjectHideFlags: 0
@@ -3115,6 +3459,20 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 942241951}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &942241954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 942241953}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d39f764f00404446a4103043d4a6237, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CardNum: 11
+  Cardsuit: 2
 --- !u!1001 &956276307
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3196,6 +3554,20 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 956276307}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &956276310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 956276309}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d39f764f00404446a4103043d4a6237, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CardNum: 10
+  Cardsuit: 4
 --- !u!1001 &1112108932
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3277,6 +3649,20 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1112108932}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1112108935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1112108934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d39f764f00404446a4103043d4a6237, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CardNum: 5
+  Cardsuit: 3
 --- !u!1001 &1158648215
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3358,6 +3744,20 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1158648215}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1158648218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1158648217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d39f764f00404446a4103043d4a6237, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CardNum: 7
+  Cardsuit: 3
 --- !u!1001 &1199909564
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3439,12 +3839,40 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1199909564}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1199909567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1199909566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d39f764f00404446a4103043d4a6237, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CardNum: 9
+  Cardsuit: 1
 --- !u!1 &1237348979 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5140061067373540872, guid: 8c469713bcd074a448dbd1007b30c43f,
     type: 3}
   m_PrefabInstance: {fileID: 447944055}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1237348980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1237348979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d39f764f00404446a4103043d4a6237, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CardNum: 8
+  Cardsuit: 2
 --- !u!1001 &1263704648
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3526,6 +3954,20 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1263704648}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1263704651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1263704650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d39f764f00404446a4103043d4a6237, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CardNum: 7
+  Cardsuit: 1
 --- !u!1001 &1296240983
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3607,6 +4049,20 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1296240983}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1296240986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1296240985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d39f764f00404446a4103043d4a6237, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CardNum: 5
+  Cardsuit: 4
 --- !u!1 &1342292905
 GameObject:
   m_ObjectHideFlags: 0
@@ -3813,6 +4269,20 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1415712292}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1415712295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1415712294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d39f764f00404446a4103043d4a6237, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CardNum: 4
+  Cardsuit: 4
 --- !u!1001 &1456857691
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3894,6 +4364,20 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1456857691}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1456857694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1456857693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d39f764f00404446a4103043d4a6237, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CardNum: 2
+  Cardsuit: 1
 --- !u!1001 &1535600266
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3975,6 +4459,20 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1535600266}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1535600269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1535600268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d39f764f00404446a4103043d4a6237, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CardNum: 8
+  Cardsuit: 4
 --- !u!1001 &1556249716
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4056,6 +4554,20 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1556249716}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1556249719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1556249718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d39f764f00404446a4103043d4a6237, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CardNum: 9
+  Cardsuit: 3
 --- !u!1001 &1621715478
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4137,6 +4649,20 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1621715478}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1621715481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1621715480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d39f764f00404446a4103043d4a6237, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CardNum: 11
+  Cardsuit: 3
 --- !u!1001 &1644412947
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4218,6 +4744,20 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1644412947}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1644412951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1644412949}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d39f764f00404446a4103043d4a6237, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CardNum: 6
+  Cardsuit: 3
 --- !u!1001 &1657019553
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4299,6 +4839,20 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1657019553}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1657019556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657019555}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d39f764f00404446a4103043d4a6237, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CardNum: 12
+  Cardsuit: 1
 --- !u!1001 &1743877031
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4414,6 +4968,26 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1743877031}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1743877033 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6383575038623224262, guid: bbdb55a683ed34d66b82124b9954e25c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1743877031}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1743877034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1743877033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d39f764f00404446a4103043d4a6237, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CardNum: 0
+  Cardsuit: 0
 --- !u!1001 &1778532282
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4495,6 +5069,20 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1778532282}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1778532285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1778532284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d39f764f00404446a4103043d4a6237, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CardNum: 8
+  Cardsuit: 1
 --- !u!1001 &1806172529
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4576,6 +5164,20 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1806172529}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1806172532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1806172531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d39f764f00404446a4103043d4a6237, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CardNum: 4
+  Cardsuit: 1
 --- !u!1001 &1812996925
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4657,6 +5259,20 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1812996925}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1812996928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1812996927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d39f764f00404446a4103043d4a6237, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CardNum: 12
+  Cardsuit: 2
 --- !u!1001 &1820993070
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4738,6 +5354,20 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1820993070}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1820993073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1820993072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d39f764f00404446a4103043d4a6237, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CardNum: 11
+  Cardsuit: 1
 --- !u!1001 &1828506919
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4819,6 +5449,20 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1828506919}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1828506922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1828506921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d39f764f00404446a4103043d4a6237, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CardNum: 2
+  Cardsuit: 2
 --- !u!1001 &1922849139
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4900,6 +5544,20 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1922849139}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1922849142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1922849141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d39f764f00404446a4103043d4a6237, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CardNum: 4
+  Cardsuit: 2
 --- !u!1 &1942456740
 GameObject:
   m_ObjectHideFlags: 0
@@ -5106,6 +5764,20 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 2002815389}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2002815392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2002815391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d39f764f00404446a4103043d4a6237, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CardNum: 1
+  Cardsuit: 3
 --- !u!1001 &2031516875
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5187,6 +5859,20 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 2031516875}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2031516878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2031516877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d39f764f00404446a4103043d4a6237, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CardNum: 9
+  Cardsuit: 2
 --- !u!1001 &2040558620
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5268,6 +5954,20 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 2040558620}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2040558623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2040558622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d39f764f00404446a4103043d4a6237, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CardNum: 10
+  Cardsuit: 2
 --- !u!1001 &2049793567
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5349,6 +6049,20 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 2049793567}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2049793570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2049793569}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d39f764f00404446a4103043d4a6237, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CardNum: 12
+  Cardsuit: 4
 --- !u!1001 &2079010540
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5430,6 +6144,20 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 2079010540}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2079010543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2079010542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d39f764f00404446a4103043d4a6237, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CardNum: 2
+  Cardsuit: 2
 --- !u!1001 &2144689877
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5511,6 +6239,20 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 2144689877}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2144689880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2144689879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d39f764f00404446a4103043d4a6237, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CardNum: 13
+  Cardsuit: 2
 --- !u!1001 &2146632311
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5592,3 +6334,17 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 2146632311}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2146632314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2146632313}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d39f764f00404446a4103043d4a6237, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CardNum: 6
+  Cardsuit: 1

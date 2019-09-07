@@ -20,6 +20,7 @@ public class MouseCardScript : MonoBehaviour
 
         gameObject.transform.position = worldPoint2d;
         AttachedCard.transform.parent = gameObject.transform;
+        AttachedCard.transform.GetComponent<SpriteRenderer>().sortingOrder = 100;
         AttachedCard.transform.localPosition = new Vector2(0, 0);
     }
 }

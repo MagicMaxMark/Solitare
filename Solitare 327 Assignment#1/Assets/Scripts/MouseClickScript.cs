@@ -31,9 +31,9 @@ public class MouseClickScript : MonoBehaviour
                     Debug.Log("foundation0 " + hit.transform.gameObject.GetComponent<FirstFoundationScript>().Foundation0Array[0]);
                     FoundationCardCounter = 0;
 
-                    while(hit.transform.gameObject.GetComponent<FirstFoundationScript>().Foundation0Array[FoundationCardCounter] != null)
+                    while (hit.transform.gameObject.GetComponent<FirstFoundationScript>().Foundation0Array[FoundationCardCounter] != null)
                     {
-                        
+
                         hit.transform.gameObject.GetComponent<FirstFoundationScript>().Foundation0Array[FoundationCardCounter] = hit.transform.gameObject.GetComponent<FirstFoundationScript>().Foundation0Array[FoundationCardCounter + 1];
                         Debug.Log("FoundationCardCounterInc " + FoundationCardCounter);
                         FoundationCardCounter += 1;
@@ -42,12 +42,37 @@ public class MouseClickScript : MonoBehaviour
 
                     MouseCard.gameObject.GetComponent<MouseCardScript>().HasAttachedCard = true;
                 }
-                
+
                 else if (hit.collider.CompareTag("Foundation") && MouseCard.gameObject.GetComponent<MouseCardScript>().HasAttachedCard == true)
                 {
+                    if (hit.transform.gameObject.name == "Discard Pile" || MouseCard.gameObject.GetComponent<MouseCardScript>().AttachedCard.gameObject.GetComponent<CardTypes>().CardNum == hit.transform.gameObject.GetComponent<FirstFoundationScript>().Foundation0Array[0].gameObject.GetComponent<CardTypes>().CardNum || MouseCard.gameObject.GetComponent<MouseCardScript>().AttachedCard.gameObject.GetComponent<CardTypes>().Cardsuit == hit.transform.gameObject.GetComponent<FirstFoundationScript>().Foundation0Array[0].gameObject.GetComponent<CardTypes>().Cardsuit) {
+                        FoundationCardCounter = 0;
+
+                        while (hit.transform.gameObject.GetComponent<FirstFoundationScript>().Foundation0Array[FoundationCardCounter] != null)
+                        {
+                            FoundationCardCounter += 1;
+                            Debug.Log("FoundationCardCounter " + FoundationCardCounter);
+                        }
+
+                        while (FoundationCardCounter + 1 != 0)
+                        {
+                            hit.transform.gameObject.GetComponent<FirstFoundationScript>().Foundation0Array[FoundationCardCounter + 1] = hit.transform.gameObject.GetComponent<FirstFoundationScript>().Foundation0Array[FoundationCardCounter];
+                            FoundationCardCounter -= 1;
+                            Debug.Log("FoundationCardCounter2 " + FoundationCardCounter);
+                        }
+
+                        hit.transform.gameObject.GetComponent<FirstFoundationScript>().Foundation0Array[0] = MouseCard.gameObject.GetComponent<MouseCardScript>().AttachedCard;
+                        MouseCard.gameObject.GetComponent<MouseCardScript>().AttachedCard = null;
+                        MouseCard.gameObject.GetComponent<MouseCardScript>().HasAttachedCard = false;
+                    }
+                }
+
+                else if (hit.collider.CompareTag("Deck"))
+                {
+
                     FoundationCardCounter = 0;
 
-                    while (hit.transform.gameObject.GetComponent<FirstFoundationScript>().Foundation0Array[FoundationCardCounter] != null)
+                    while (hit.transform.GetComponent<DeckScript>().Discard.transform.GetComponent<FirstFoundationScript>().Foundation0Array[FoundationCardCounter] != null)
                     {
                         FoundationCardCounter += 1;
                         Debug.Log("FoundationCardCounter " + FoundationCardCounter);
@@ -55,14 +80,14 @@ public class MouseClickScript : MonoBehaviour
 
                     while (FoundationCardCounter + 1 != 0)
                     {
-                        hit.transform.gameObject.GetComponent<FirstFoundationScript>().Foundation0Array[FoundationCardCounter + 1] = hit.transform.gameObject.GetComponent<FirstFoundationScript>().Foundation0Array[FoundationCardCounter];
+                        hit.transform.GetComponent<DeckScript>().Discard.transform.GetComponent<FirstFoundationScript>().Foundation0Array[FoundationCardCounter + 1] = hit.transform.GetComponent<DeckScript>().Discard.transform.GetComponent<FirstFoundationScript>().Foundation0Array[FoundationCardCounter];
                         FoundationCardCounter -= 1;
                         Debug.Log("FoundationCardCounter2 " + FoundationCardCounter);
                     }
 
-                    hit.transform.gameObject.GetComponent<FirstFoundationScript>().Foundation0Array[0] = MouseCard.gameObject.GetComponent<MouseCardScript>().AttachedCard;
-                    MouseCard.gameObject.GetComponent<MouseCardScript>().AttachedCard = null;
-                    MouseCard.gameObject.GetComponent<MouseCardScript>().HasAttachedCard = false;
+                    hit.transform.GetComponent<DeckScript>().Discard.transform.GetComponent<FirstFoundationScript>().Foundation0Array[0] = hit.transform.GetComponent<DeckScript>().ShuffledDeck[0];
+                    hit.transform.GetComponent<DeckScript>().ShuffledDeck[0] = null;
+
                 }
                 
             }

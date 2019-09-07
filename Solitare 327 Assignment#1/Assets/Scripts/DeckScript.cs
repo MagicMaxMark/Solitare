@@ -47,7 +47,8 @@ public class DeckScript : MonoBehaviour
             while (CardCounter < 51)
             {
                 ShuffledDeck[CardCounter] = ShuffledDeck[CardCounter + 1];
-                CardCounter += 1;
+  
+                              CardCounter += 1;
             }
 
             ShuffledDeck[51] = null;
@@ -151,7 +152,7 @@ public class DeckScript : MonoBehaviour
     }
 
 
-      
+
 
     // Update is called once per frame
     void Update()
@@ -166,13 +167,6 @@ public class DeckScript : MonoBehaviour
                 CardCounter += 1;
             }
             ShuffledDeck[51] = null;
-        }
-            
-
-
-        if (isClicked == true)
-        {
-
         }
     }
 }
