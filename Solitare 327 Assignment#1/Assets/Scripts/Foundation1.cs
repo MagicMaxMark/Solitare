@@ -23,19 +23,44 @@ public class Foundation1 : MonoBehaviour
             while(i < 3)
             {
                 Foundation1Array[i] = Deck.GetComponent<Deck>().ShuffledDeck[0];
-                foo = 0;
-                while(foo <= 54 && Deck.GetComponent<Deck>().ShuffledDeck[foo] != null)
+
+                while(foo < 51 && Deck.GetComponent<Deck>().ShuffledDeck[foo] != null)
                 {
-                    Deck.GetComponent<Deck>().ShuffledDeck[foo] = Deck.GetComponent<Deck>().ShuffledDeck[foo + 1] ;
+                    Deck.GetComponent<Deck>().ShuffledDeck[foo] = Deck.GetComponent<Deck>().ShuffledDeck[foo + 1];
+                    
                     foo += 1;
                 }
-                Debug.Log(i);
-            
+
+                if (foo == 51)
+                {
+                    Deck.GetComponent<Deck>().ShuffledDeck[foo] = null;
+                    foo = 0;
+                }
+
+
                 i += 1;
             }
 
             Foundation1Setup = false;
+            Deck.GetComponent<Deck>().ShuffledDeck[foo] = null;
 
+          
+
+        }
+
+        if (Foundation1Setup == false)
+        {
+            Foundation1Array[0].transform.parent = gameObject.transform;
+            Foundation1Array[0].transform.localPosition = new Vector3(0, 0, 0);
+            Foundation1Array[0].GetComponent<SpriteRenderer>().sortingOrder = 52 - 0;
+
+            Foundation1Array[1].transform.parent = gameObject.transform;
+            Foundation1Array[1].transform.localPosition = new Vector3(0.5f, 0, 0);
+            Foundation1Array[1].GetComponent<SpriteRenderer>().sortingOrder = 52 - 1;
+
+            Foundation1Array[2].transform.parent = gameObject.transform;
+            Foundation1Array[2].transform.localPosition = new Vector3(1, 0, 0);
+            Foundation1Array[2].GetComponent<SpriteRenderer>().sortingOrder = 52 - 2;
         }
     }
 }

@@ -14,7 +14,7 @@ public class Deck : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-       while (i <= 53)
+       while (i <= 51)
         {
             foo = Random.Range(0, Cards.Length);
             while(Cards[foo] == null)
