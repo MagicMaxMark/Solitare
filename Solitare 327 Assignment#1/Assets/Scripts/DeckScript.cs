@@ -12,6 +12,7 @@ public class DeckScript : MonoBehaviour
     public GameObject Foundation3;
     public GameObject Discard;
     public GameObject Canvas;
+    public GameObject Card53;
     public bool DeckIsShuffled = false;
     public bool GameEnd = false;
     int FoundationCardCounter;
@@ -43,6 +44,12 @@ public class DeckScript : MonoBehaviour
             Debug.Log("hello");
             Foundation0.GetComponent<FirstFoundationScript>().Foundation0Array[FoundationCardCounter] = ShuffledDeck[0];
 
+            if (FoundationCardCounter != 0)
+            {
+                Foundation0.GetComponent<FirstFoundationScript>().Foundation0Array[FoundationCardCounter].gameObject.GetComponent<CardTypes>().CardBack = Card53;
+                Foundation0.GetComponent<FirstFoundationScript>().Foundation0Array[FoundationCardCounter].gameObject.GetComponent<CardTypes>().Hidden = true;
+            }
+
             CardCounter = 0;
 
             while (CardCounter < 51)
@@ -67,6 +74,12 @@ public class DeckScript : MonoBehaviour
             Debug.Log("hello");
             Foundation1.GetComponent<FirstFoundationScript>().Foundation0Array[FoundationCardCounter] = ShuffledDeck[0];
 
+            if (FoundationCardCounter != 0)
+            {
+                Foundation1.GetComponent<FirstFoundationScript>().Foundation0Array[FoundationCardCounter].gameObject.GetComponent<CardTypes>().CardBack = Card53;
+                Foundation1.GetComponent<FirstFoundationScript>().Foundation0Array[FoundationCardCounter].gameObject.GetComponent<CardTypes>().Hidden = true;
+            }
+
             CardCounter = 0;
 
             while (CardCounter < 51)
@@ -90,6 +103,12 @@ public class DeckScript : MonoBehaviour
             Debug.Log("hello");
             Foundation2.GetComponent<FirstFoundationScript>().Foundation0Array[FoundationCardCounter] = ShuffledDeck[0];
 
+            if (FoundationCardCounter != 0)
+            {
+                Foundation2.GetComponent<FirstFoundationScript>().Foundation0Array[FoundationCardCounter].gameObject.GetComponent<CardTypes>().CardBack = Card53;
+                Foundation2.GetComponent<FirstFoundationScript>().Foundation0Array[FoundationCardCounter].gameObject.GetComponent<CardTypes>().Hidden = true;
+            }
+
             CardCounter = 0;
 
             while (CardCounter < 51)
@@ -112,6 +131,12 @@ public class DeckScript : MonoBehaviour
         {
             Debug.Log("hello");
             Foundation3.GetComponent<FirstFoundationScript>().Foundation0Array[FoundationCardCounter] = ShuffledDeck[0];
+
+            if (FoundationCardCounter != 0)
+            {
+                Foundation3.GetComponent<FirstFoundationScript>().Foundation0Array[FoundationCardCounter].gameObject.GetComponent<CardTypes>().CardBack = Card53;
+                Foundation3.GetComponent<FirstFoundationScript>().Foundation0Array[FoundationCardCounter].gameObject.GetComponent<CardTypes>().Hidden = true;
+            }
 
             CardCounter = 0;
 
@@ -166,7 +191,7 @@ public class DeckScript : MonoBehaviour
         }
         GameObject.Find("DeckText").GetComponent<TextMesh>().text = "" + FoundationCardCounter;
 
-        if (ShuffledDeck[0] == null)
+        if (ShuffledDeck[0] == null && GameEnd == false)
         {
             CardCounter = 0;
 
@@ -181,13 +206,6 @@ public class DeckScript : MonoBehaviour
             {
                 GameEnd = true;
             }
-        }
-
-        while(GameEnd == true)
-        {
-            GameObject.Find("Main Camera").GetComponent<MouseClickScript>().enabled = false;
-            gameObject.GetComponent<DeckScript>().enabled = false;
-
         }
 
     }

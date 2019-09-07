@@ -39,6 +39,11 @@ public class MouseClickScript : MonoBehaviour
                         FoundationCardCounter += 1;
                     }
 
+                    if(hit.transform.gameObject.GetComponent<FirstFoundationScript>().Foundation0Array[0].gameObject.GetComponent<CardTypes>().Hidden == true)
+                    {
+                        hit.transform.gameObject.GetComponent<FirstFoundationScript>().Foundation0Array[0].gameObject.GetComponent<CardTypes>().Hidden = false;
+                    }
+
 
                     MouseCard.gameObject.GetComponent<MouseCardScript>().HasAttachedCard = true;
                 }

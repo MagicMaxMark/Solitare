@@ -1,13 +1,13 @@
 ﻿<Properties StartupConfiguration="{FF5D5A0A-7210-0326-5531-9C0E57965C57}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GetCardValScript.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/DiscardCountScript.cs">
     <Files>
-      <File FileName="Assets/Scripts/MouseClickScript.cs" Line="79" Column="22" />
-      <File FileName="Assets/Scripts/MouseCardScript.cs" />
-      <File FileName="Assets/Scripts/FirstFoundationScript.cs" />
-      <File FileName="Assets/Scripts/CardTypes.cs" />
-      <File FileName="Assets/Scripts/DeckScript.cs" Line="170" Column="10" />
-      <File FileName="Assets/Scripts/CombineScript.cs" Line="20" Column="158" />
-      <File FileName="Assets/Scripts/GetCardValScript.cs" Line="9" Column="6" />
+      <File FileName="Assets/Scripts/CardTypes.cs" Line="37" Column="39" />
+      <File FileName="Assets/Scripts/DeckScript.cs" Line="188" Column="10" />
+      <File FileName="Assets/Scripts/FirstFoundationScript.cs" Line="29" Column="14" />
+      <File FileName="Assets/Scripts/MouseClickScript.cs" Line="41" Column="1" />
+      <File FileName="Assets/Scripts/GetCardValScript.cs" Line="25" Column="1" />
+      <File FileName="Assets/Scripts/GameOverScript.cs" Line="38" Column="11" />
+      <File FileName="Assets/Scripts/DiscardCountScript.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -15,7 +15,7 @@
           <Node name="Solitare 327 Assignment#1" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="GetCardValScript.cs" selected="True" />
+                <Node name="DiscardCountScript.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -25,7 +25,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="a1ef5f7a-6d5c-4ab8-8ac5-baff0077354a" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="d0461ced-6d31-46f7-8bae-665b8cc5339f" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

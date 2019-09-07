@@ -36,7 +36,7 @@ public class FirstFoundationScript : MonoBehaviour
             {
                 Foundation0Array[RenderCounter].transform.parent = gameObject.transform;
                 Foundation0Array[RenderCounter].transform.localPosition = new Vector3(RenderCounter * 0.5f, 0, 0);
-                Foundation0Array[RenderCounter].GetComponent<SpriteRenderer>().sortingOrder = 52 - RenderCounter;
+                Foundation0Array[RenderCounter].GetComponent<SpriteRenderer>().sortingOrder = 104 - RenderCounter*2;
                 RenderCounter += 1;
             }
         
