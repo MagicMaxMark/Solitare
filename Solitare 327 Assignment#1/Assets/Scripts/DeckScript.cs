@@ -159,7 +159,7 @@ public class DeckScript : MonoBehaviour
     void Update()
     {
         FoundationCardCounter = 0;
-        while (ShuffledDeck[FoundationCardCounter] != null)
+        while (ShuffledDeck[FoundationCardCounter] != null && FoundationCardCounter < 52)
         {
             FoundationCardCounter += 1;
             Debug.Log("FoundationCardCounter " + FoundationCardCounter);

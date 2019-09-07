@@ -1,11 +1,13 @@
 ﻿<Properties StartupConfiguration="{FF5D5A0A-7210-0326-5531-9C0E57965C57}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/DeckScript.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GetCardValScript.cs">
     <Files>
       <File FileName="Assets/Scripts/MouseClickScript.cs" Line="79" Column="22" />
-      <File FileName="Assets/Scripts/MouseCardScript.cs" Line="23" Column="82" />
-      <File FileName="Assets/Scripts/FirstFoundationScript.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/CardTypes.cs" Line="6" Column="2" />
-      <File FileName="Assets/Scripts/DeckScript.cs" Line="167" Column="96" />
+      <File FileName="Assets/Scripts/MouseCardScript.cs" />
+      <File FileName="Assets/Scripts/FirstFoundationScript.cs" />
+      <File FileName="Assets/Scripts/CardTypes.cs" />
+      <File FileName="Assets/Scripts/DeckScript.cs" Line="170" Column="10" />
+      <File FileName="Assets/Scripts/CombineScript.cs" Line="20" Column="158" />
+      <File FileName="Assets/Scripts/GetCardValScript.cs" Line="9" Column="6" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -13,7 +15,7 @@
           <Node name="Solitare 327 Assignment#1" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="DeckScript.cs" selected="True" />
+                <Node name="GetCardValScript.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -23,7 +25,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="9432f226-3a82-454b-819e-711d95f58423" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="a1ef5f7a-6d5c-4ab8-8ac5-baff0077354a" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
