@@ -20,8 +20,8 @@ public class FirstFoundationScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-            FoundationCardCounter = 0;
+
+        FoundationCardCounter = 0;
 
             while (Foundation0Array[FoundationCardCounter] != null)
             {

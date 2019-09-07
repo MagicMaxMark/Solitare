@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Deck : MonoBehaviour
+public class DeckScript : MonoBehaviour
 {
     public GameObject[] Cards;
     public GameObject[] ShuffledDeck;

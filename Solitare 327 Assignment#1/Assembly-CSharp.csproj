@@ -62,13 +62,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\card0.cs" />
-    <Compile Include="Assets\CardsLinkedToArray.cs" />
-    <Compile Include="Assets\CardType.cs" />
-    <Compile Include="Assets\Clicked.cs" />
-    <Compile Include="Assets\Scripts\Deck.cs" />
+    <Compile Include="Assets\Scripts\ClickScript.cs" />
+    <Compile Include="Assets\Scripts\DeckScript.cs" />
     <Compile Include="Assets\Scripts\FirstFoundationScript.cs" />
-    <Compile Include="Assets\Scripts\Foundation0Script.cs" />
+    <Compile Include="Assets\Scripts\MouseCardScript.cs" />
+    <Compile Include="Assets\Scripts\MouseClickScript.cs" />
     <None Include="Assets\BayatGames\Free Platform Game Assets\Readme.txt" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>/Users/MMark/Documents/Solitare/Solitare 327 Assignment#1/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
