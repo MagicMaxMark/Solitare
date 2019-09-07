@@ -66,11 +66,9 @@
     <Compile Include="Assets\CardsLinkedToArray.cs" />
     <Compile Include="Assets\CardType.cs" />
     <Compile Include="Assets\Clicked.cs" />
-    <Compile Include="Assets\Scripts\Clcik.cs" />
-    <Compile Include="Assets\Scripts\Click2.cs" />
     <Compile Include="Assets\Scripts\Deck.cs" />
-    <Compile Include="Assets\Scripts\DrawPileScript.cs" />
-    <Compile Include="Assets\Scripts\Foundation1.cs" />
+    <Compile Include="Assets\Scripts\FirstFoundationScript.cs" />
+    <Compile Include="Assets\Scripts\Foundation0Script.cs" />
     <None Include="Assets\BayatGames\Free Platform Game Assets\Readme.txt" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>/Users/MMark/Documents/Solitare/Solitare 327 Assignment#1/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
