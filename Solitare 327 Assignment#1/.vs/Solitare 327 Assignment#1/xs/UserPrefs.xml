@@ -1,10 +1,9 @@
 ﻿<Properties StartupConfiguration="{FF5D5A0A-7210-0326-5531-9C0E57965C57}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MouseClickScript.cs">
     <Files>
-      <File FileName="Assets/Scripts/Deck.cs" Line="169" Column="10" />
-      <File FileName="Assets/Scripts/FirstFoundationScript.cs" Line="22" Column="6" />
-      <File FileName="Assets/Scripts/MouseClickScript.cs" Line="58" Column="94" />
-      <File FileName="Assets/Scripts/MouseCardScript.cs" Line="23" Column="66" />
+      <File FileName="Assets/Scripts/FirstFoundationScript.cs" Line="44" Column="2" />
+      <File FileName="Assets/Scripts/MouseClickScript.cs" Line="26" Column="17" />
+      <File FileName="Assets/Scripts/MouseCardScript.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -22,7 +21,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="645e54fd-01da-4988-a66c-3acd9dc00ed6" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="9432f226-3a82-454b-819e-711d95f58423" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
