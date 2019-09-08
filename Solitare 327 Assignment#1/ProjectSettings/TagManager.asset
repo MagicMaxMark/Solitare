@@ -49,3 +49,6 @@ TagManager:
   - name: Foreground
     uniqueID: 3673959721
     locked: 0
+  - name: EndGame
+    uniqueID: 3049439993
+    locked: 0

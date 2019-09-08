@@ -293,6 +293,7 @@
 "Assets/Scripts/CombineScript.cs"
 "Assets/Scripts/DeckScript.cs"
 "Assets/Scripts/DiscardCountScript.cs"
+"Assets/Scripts/FinalScore.cs"
 "Assets/Scripts/FirstFoundationScript.cs"
 "Assets/Scripts/GameOverScript.cs"
 "Assets/Scripts/GetCardValScript.cs"

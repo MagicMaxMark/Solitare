@@ -15,6 +15,7 @@ public class DeckScript : MonoBehaviour
     public GameObject Card53;
     public bool DeckIsShuffled = false;
     public bool GameEnd = false;
+    public GameObject Endgame;
     int FoundationCardCounter;
     int FoundationCardMax;
     int RandNum;
@@ -205,6 +206,8 @@ public class DeckScript : MonoBehaviour
             if (ShuffledDeck[0] == null)
             {
                 GameEnd = true;
+                Endgame.transform.GetComponent<GameOverScript>().enabled = true;
+                Canvas.GetComponent<Canvas>().sortingLayerName = "EndGame";
             }
         }
 
