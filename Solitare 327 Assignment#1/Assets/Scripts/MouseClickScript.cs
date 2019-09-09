@@ -28,6 +28,7 @@ public class MouseClickScript : MonoBehaviour
                 if (hit.collider.CompareTag("Foundation") && MouseCard.gameObject.GetComponent<MouseCardScript>().HasAttachedCard == false)
                 {
                     MouseCard.gameObject.GetComponent<MouseCardScript>().AttachedCard = hit.transform.gameObject.GetComponent<FirstFoundationScript>().Foundation0Array[0];
+                    MouseCard.gameObject.GetComponent<MouseCardScript>().HasAttachedCard = true;
                     Debug.Log("foundation0 " + hit.transform.gameObject.GetComponent<FirstFoundationScript>().Foundation0Array[0]);
                     FoundationCardCounter = 0;
 
@@ -44,8 +45,6 @@ public class MouseClickScript : MonoBehaviour
                         hit.transform.gameObject.GetComponent<FirstFoundationScript>().Foundation0Array[0].gameObject.GetComponent<CardTypes>().Hidden = false;
                     }
 
-
-                    MouseCard.gameObject.GetComponent<MouseCardScript>().HasAttachedCard = true;
                 }
 
                 else if (hit.collider.CompareTag("Foundation") && MouseCard.gameObject.GetComponent<MouseCardScript>().HasAttachedCard == true)
